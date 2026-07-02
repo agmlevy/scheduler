@@ -60,8 +60,8 @@
       "tags": [
         "skips"
       ],
-      "sequence": "1a",
-      "minutes": null,
+      "sequence": "a1",
+      "minutes": 15,
       "notes": ""
     },
     {
@@ -72,8 +72,8 @@
         "skips",
         "pogos"
       ],
-      "sequence": "1b",
-      "minutes": null,
+      "sequence": "a2",
+      "minutes": 15,
       "notes": ""
     },
     {
@@ -83,8 +83,8 @@
       "tags": [
         "bounds"
       ],
-      "sequence": "1c",
-      "minutes": null,
+      "sequence": "a3",
+      "minutes": 15,
       "notes": ""
     },
     {
@@ -109,8 +109,8 @@
         "lateral",
         "bounds"
       ],
-      "sequence": "1d",
-      "minutes": null,
+      "sequence": "a4",
+      "minutes": 15,
       "notes": ""
     },
     {
@@ -134,8 +134,8 @@
         "lateral",
         "pogo"
       ],
-      "sequence": "",
-      "minutes": null,
+      "sequence": "b1",
+      "minutes": 15,
       "notes": ""
     },
     {
@@ -147,8 +147,8 @@
         "rotation",
         "turn"
       ],
-      "sequence": "4a",
-      "minutes": null,
+      "sequence": "b2",
+      "minutes": 15,
       "notes": ""
     },
     {
@@ -159,7 +159,7 @@
         "lateral",
         "feint"
       ],
-      "sequence": "1a",
+      "sequence": "",
       "minutes": null,
       "notes": ""
     },
@@ -172,7 +172,7 @@
         "bound",
         "feint"
       ],
-      "sequence": "1b",
+      "sequence": "",
       "minutes": null,
       "notes": ""
     },
@@ -184,8 +184,8 @@
         "dribble",
         "foot speed"
       ],
-      "sequence": "2a",
-      "minutes": null,
+      "sequence": "b4",
+      "minutes": 20,
       "notes": ""
     },
     {
@@ -195,7 +195,7 @@
       "tags": [
         "skill move"
       ],
-      "sequence": "6a",
+      "sequence": "",
       "minutes": null,
       "notes": ""
     },
@@ -208,8 +208,8 @@
         "rotation",
         "turn"
       ],
-      "sequence": "4b",
-      "minutes": null,
+      "sequence": "b3",
+      "minutes": 15,
       "notes": ""
     },
     {
@@ -220,8 +220,8 @@
         "ginga",
         "penguin"
       ],
-      "sequence": "3a",
-      "minutes": null,
+      "sequence": "d",
+      "minutes": 15,
       "notes": ""
     },
     {
@@ -231,7 +231,7 @@
       "tags": [
         "ginga"
       ],
-      "sequence": "3b",
+      "sequence": "d",
       "minutes": null,
       "notes": ""
     },
@@ -243,7 +243,7 @@
         "lateral",
         "feint"
       ],
-      "sequence": "1c",
+      "sequence": "c",
       "minutes": null,
       "notes": ""
     },
@@ -255,7 +255,7 @@
         "lateral",
         "feint"
       ],
-      "sequence": "1d",
+      "sequence": "c",
       "minutes": null,
       "notes": ""
     },
@@ -268,7 +268,7 @@
         "feint",
         "dribble"
       ],
-      "sequence": "5a",
+      "sequence": "c",
       "minutes": null,
       "notes": ""
     },
@@ -279,7 +279,7 @@
       "tags": [
         "ginga"
       ],
-      "sequence": "3c",
+      "sequence": "d",
       "minutes": null,
       "notes": ""
     },
@@ -293,7 +293,7 @@
         "dribbling",
         "foot speed"
       ],
-      "sequence": "2b",
+      "sequence": "b",
       "minutes": null,
       "notes": ""
     },
@@ -305,7 +305,7 @@
         "lateral",
         "feint"
       ],
-      "sequence": "1e",
+      "sequence": "",
       "minutes": null,
       "notes": ""
     },
@@ -318,7 +318,7 @@
         "rotation",
         "turn"
       ],
-      "sequence": "4c",
+      "sequence": "b6",
       "minutes": null,
       "notes": ""
     },
@@ -331,7 +331,7 @@
         "rotation",
         "turn"
       ],
-      "sequence": "4d",
+      "sequence": "b7",
       "minutes": null,
       "notes": ""
     },
@@ -344,7 +344,7 @@
         "rotation",
         "turn"
       ],
-      "sequence": "4e",
+      "sequence": "b5",
       "minutes": null,
       "notes": ""
     },
@@ -355,7 +355,7 @@
       "tags": [
         "skill move"
       ],
-      "sequence": "",
+      "sequence": "e",
       "minutes": null,
       "notes": ""
     },
@@ -367,7 +367,7 @@
         "dribble",
         "turn"
       ],
-      "sequence": "",
+      "sequence": "e",
       "minutes": null,
       "notes": ""
     },
@@ -378,7 +378,7 @@
       "tags": [
         "skill move"
       ],
-      "sequence": "",
+      "sequence": "e",
       "minutes": null,
       "notes": ""
     },
@@ -390,8 +390,8 @@
         "cone",
         "skill move"
       ],
-      "sequence": "",
-      "minutes": null,
+      "sequence": "f2",
+      "minutes": 20,
       "notes": ""
     },
     {
@@ -402,8 +402,8 @@
         "cone",
         "skill move"
       ],
-      "sequence": "",
-      "minutes": null,
+      "sequence": "f3",
+      "minutes": 20,
       "notes": ""
     },
     {
@@ -414,8 +414,8 @@
         "cone",
         "skill move"
       ],
-      "sequence": "",
-      "minutes": null,
+      "sequence": "f1",
+      "minutes": 20,
       "notes": "carousel post"
     },
     {
@@ -436,7 +436,7 @@
         "feint",
         "dribble"
       ],
-      "sequence": "5a",
+      "sequence": "",
       "minutes": null,
       "notes": ""
     },
@@ -458,8 +458,8 @@
         "dribble",
         "skill move"
       ],
-      "sequence": "",
-      "minutes": null,
+      "sequence": "g1",
+      "minutes": 15,
       "notes": ""
     },
     {
@@ -471,8 +471,8 @@
         "dribble",
         "skill move"
       ],
-      "sequence": "",
-      "minutes": null,
+      "sequence": "f4",
+      "minutes": 20,
       "notes": "carousel post"
     },
     {
@@ -494,7 +494,7 @@
       "tags": [
         "skill move"
       ],
-      "sequence": "6a",
+      "sequence": "",
       "minutes": null,
       "notes": ""
     },
@@ -503,8 +503,8 @@
       "theme": "ball_mastery",
       "url": "https://www.instagram.com/reel/DW4BmQUEuFc/",
       "tags": [],
-      "sequence": "",
-      "minutes": null,
+      "sequence": "g3",
+      "minutes": 20,
       "notes": ""
     },
     {
@@ -512,7 +512,7 @@
       "theme": "ball_mastery",
       "url": "https://www.instagram.com/reel/DWkaA5air9o/",
       "tags": [],
-      "sequence": "",
+      "sequence": "f5",
       "minutes": null,
       "notes": ""
     },
@@ -521,8 +521,8 @@
       "theme": "ball_mastery",
       "url": "https://www.instagram.com/reel/DWrH8WlEmkX/",
       "tags": [],
-      "sequence": "",
-      "minutes": null,
+      "sequence": "g2",
+      "minutes": 20,
       "notes": ""
     },
     {
