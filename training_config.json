@@ -1,0 +1,19 @@
+{
+  "startDate": "2025-10-20",
+  "endDate": "2026-06-26",
+  "restDays": [4],
+  "notes": "Morning stack: 07:00 yoga → 07:15 primary theme (50m) → 08:05–10:05 two classes → 10:05 second theme (50m) → ~90m free. Friday rest (yoga + half-day class only). Sat shooting / Sun running after yoga.",
+  "dailySessions": [{ "theme": "yoga_stretch", "timeStart": "07:00" }],
+  "weeklySessions": [
+    { "weekday": 0, "theme": "ball_mastery", "timeStart": "07:15", "slot": "primary" },
+    { "weekday": 1, "theme": "pass_wall", "timeStart": "07:15", "slot": "primary" },
+    { "weekday": 2, "theme": "coordination_skills", "timeStart": "07:15", "slot": "primary" },
+    { "weekday": 3, "theme": "plyometrics", "timeStart": "07:15", "slot": "primary" },
+    { "weekday": 0, "theme": "drill_snacks", "timeStart": "10:05", "slot": "secondary" },
+    { "weekday": 1, "theme": "drill_snacks", "timeStart": "10:05", "slot": "secondary" },
+    { "weekday": 2, "theme": "drill_snacks", "timeStart": "10:05", "slot": "secondary" },
+    { "weekday": 3, "theme": "drill_snacks", "timeStart": "10:05", "slot": "secondary" },
+    { "weekday": 5, "theme": "shooting", "timeStart": "07:15", "slot": "primary" },
+    { "weekday": 6, "theme": "running", "timeStart": "07:15", "slot": "primary" }
+  ]
+}

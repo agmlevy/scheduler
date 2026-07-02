@@ -1,0 +1,456 @@
+{
+  "meta": {
+    "notes": "Edit tags in drill_tags.csv then run: python import_drill_tags.py && npm run publish. Tags are suggestions for picking reels during each session block."
+  },
+  "tagVocabulary": {
+    "plyometrics": [
+      "a skip",
+      "b skip",
+      "c skips",
+      "bounding progression",
+      "lateral bound",
+      "single-leg hop",
+      "box jump",
+      "reactive",
+      "sprint mechanic"
+    ],
+    "coordination_skills": [
+      "ginga",
+      "rotation",
+      "rabona",
+      "cruyff",
+      "body feint",
+      "elastico",
+      "step-over",
+      "scissors",
+      "turn"
+    ],
+    "pass_wall": [
+      "one-touch",
+      "two-touch",
+      "weak foot",
+      "angle change",
+      "wall rhythm"
+    ],
+    "ball_mastery": [
+      "trapping",
+      "sole roll",
+      "pull-back",
+      "tight control",
+      "juggling",
+      "first touch",
+      "both feet"
+    ],
+    "yoga_stretch": [
+      "hip opener",
+      "hamstring",
+      "mobility",
+      "recovery",
+      "breath"
+    ],
+    "shooting": [],
+    "running": [],
+    "drill_snacks": []
+  },
+  "drills": [
+    {
+      "id": "plyo-01",
+      "theme": "plyometrics",
+      "url": "https://www.instagram.com/reel/DP2ee3yCeNi/",
+      "tags": [
+        "skips"
+      ],
+      "notes": "1a"
+    },
+    {
+      "id": "plyo-02",
+      "theme": "plyometrics",
+      "url": "https://www.instagram.com/reel/DXVPoC9gc0Y/",
+      "tags": [
+        "skips",
+        "pogos"
+      ],
+      "notes": "1b"
+    },
+    {
+      "id": "plyo-03",
+      "theme": "plyometrics",
+      "url": "https://www.instagram.com/reel/DNDUVd3slXg/",
+      "tags": [
+        "bounds"
+      ],
+      "notes": "1c"
+    },
+    {
+      "id": "plyo-04",
+      "theme": "plyometrics",
+      "url": "https://www.instagram.com/reel/DZofVPdNYBZ/",
+      "tags": [
+        "single lef",
+        "weighted",
+        "pogo"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "plyo-05",
+      "theme": "plyometrics",
+      "url": "https://www.instagram.com/reel/DXO8zBMEWPY/",
+      "tags": [
+        "weighted",
+        "lateral",
+        "bounds"
+      ],
+      "notes": "1d"
+    },
+    {
+      "id": "plyo-06",
+      "theme": "plyometrics",
+      "url": "https://www.instagram.com/reel/DW8_khEEcp7/",
+      "tags": [
+        "weighted",
+        "lateral",
+        "bounds"
+      ],
+      "notes": "Coach Goodwin (@good_win_speed)"
+    },
+    {
+      "id": "plyo-07",
+      "theme": "plyometrics",
+      "url": "https://www.instagram.com/reel/DVtaHrQAva1/",
+      "tags": [
+        "lateral",
+        "pogo"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "coord-01",
+      "theme": "coordination_skills",
+      "url": "https://www.instagram.com/reel/DYo9-MIoOB-/",
+      "tags": [
+        "lateral",
+        "rotation",
+        "turn"
+      ],
+      "notes": "4a"
+    },
+    {
+      "id": "coord-02",
+      "theme": "coordination_skills",
+      "url": "https://www.instagram.com/reel/DWZEcjgjjL9/",
+      "tags": [
+        "lateral",
+        "feint"
+      ],
+      "notes": "1a"
+    },
+    {
+      "id": "coord-03",
+      "theme": "coordination_skills",
+      "url": "https://www.instagram.com/reel/DWmA_S0Esjj/",
+      "tags": [
+        "lateral",
+        "bound",
+        "feint"
+      ],
+      "notes": "1b"
+    },
+    {
+      "id": "coord-04",
+      "theme": "coordination_skills",
+      "url": "https://www.instagram.com/reel/DXjqkXLiBK8/",
+      "tags": [
+        "dribble",
+        "foot speed"
+      ],
+      "notes": "2a"
+    },
+    {
+      "id": "coord-05",
+      "theme": "coordination_skills",
+      "url": "https://www.instagram.com/reel/DU8i0C9EQqt/",
+      "tags": [
+        "skill move"
+      ],
+      "notes": "6a"
+    },
+    {
+      "id": "coord-06",
+      "theme": "coordination_skills",
+      "url": "https://www.instagram.com/reel/DZcd8fhILzJ/",
+      "tags": [
+        "dribble",
+        "rotation",
+        "turn"
+      ],
+      "notes": "4b"
+    },
+    {
+      "id": "coord-07",
+      "theme": "coordination_skills",
+      "url": "https://www.instagram.com/reel/DZXep4Xutoc/",
+      "tags": [
+        "ginga",
+        "pengguin"
+      ],
+      "notes": "3a"
+    },
+    {
+      "id": "coord-08",
+      "theme": "coordination_skills",
+      "url": "https://www.instagram.com/reel/DZmSJ7GBcIh/",
+      "tags": [
+        "ginga"
+      ],
+      "notes": "3b"
+    },
+    {
+      "id": "coord-09",
+      "theme": "coordination_skills",
+      "url": "https://www.instagram.com/reel/DZkalIySyM2/",
+      "tags": [
+        "lateral",
+        "feint"
+      ],
+      "notes": "1c"
+    },
+    {
+      "id": "coord-10",
+      "theme": "coordination_skills",
+      "url": "https://www.instagram.com/reel/DW_y2AADKTy/",
+      "tags": [
+        "lateral",
+        "feint"
+      ],
+      "notes": "1d"
+    },
+    {
+      "id": "coord-11",
+      "theme": "coordination_skills",
+      "url": "https://www.instagram.com/reel/DW_nocojnt2/",
+      "tags": [
+        "lateral",
+        "feint",
+        "dribblle"
+      ],
+      "notes": "5a"
+    },
+    {
+      "id": "coord-12",
+      "theme": "coordination_skills",
+      "url": "https://www.instagram.com/reel/C2M30WkLAu9/",
+      "tags": [
+        "ginga"
+      ],
+      "notes": "3c"
+    },
+    {
+      "id": "coord-13",
+      "theme": "coordination_skills",
+      "url": "https://www.instagram.com/reel/DT43NMckjIc/",
+      "tags": [
+        "lateral",
+        "feint",
+        "dribbling",
+        "foot speed"
+      ],
+      "notes": "2b"
+    },
+    {
+      "id": "coord-14",
+      "theme": "coordination_skills",
+      "url": "https://www.instagram.com/reel/DZP0UHkhvdz/",
+      "tags": [
+        "lateral",
+        "feint"
+      ],
+      "notes": "1e"
+    },
+    {
+      "id": "coord-15",
+      "theme": "coordination_skills",
+      "url": "https://www.instagram.com/reel/DZh1s7xy018/",
+      "tags": [
+        "dribble",
+        "rotatation",
+        "turn"
+      ],
+      "notes": "4c"
+    },
+    {
+      "id": "coord-16",
+      "theme": "coordination_skills",
+      "url": "https://www.instagram.com/reel/DY7NwngyvFd/",
+      "tags": [
+        "dribble",
+        "rotatation",
+        "turn"
+      ],
+      "notes": "4d"
+    },
+    {
+      "id": "coord-17",
+      "theme": "coordination_skills",
+      "url": "https://www.instagram.com/reel/DVjBrXwgLeF/",
+      "tags": [
+        "dribble",
+        "rotation",
+        "turn"
+      ],
+      "notes": "4e"
+    },
+    {
+      "id": "wall-01",
+      "theme": "pass_wall",
+      "url": "https://www.instagram.com/reel/DXhLRm8u3X5/",
+      "tags": [
+        "skill move"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wall-03",
+      "theme": "pass_wall",
+      "url": "https://www.instagram.com/reel/DX4XS0tSwwI/",
+      "tags": [
+        "dribble",
+        "turn"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wall-04",
+      "theme": "pass_wall",
+      "url": "https://www.instagram.com/reel/DXUx10gESLV/",
+      "tags": [
+        "skill move"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "ball-01",
+      "theme": "ball_mastery",
+      "url": "https://www.instagram.com/reel/DWCIiSfgDVc/",
+      "tags": [
+        "cone",
+        "skill move"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "ball-02",
+      "theme": "ball_mastery",
+      "url": "https://www.instagram.com/reel/DWJr0chAA4l/",
+      "tags": [
+        "cone",
+        "skill move"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "ball-03",
+      "theme": "ball_mastery",
+      "url": "https://www.instagram.com/p/DW3lI89Fk3W/",
+      "tags": [
+        "cone",
+        "skill move"
+      ],
+      "notes": "carousel post"
+    },
+    {
+      "id": "ball-04",
+      "theme": "ball_mastery",
+      "url": "https://www.instagram.com/reel/DXWub4MEiaL/",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "ball-05",
+      "theme": "ball_mastery",
+      "url": "https://www.instagram.com/reel/DXZUF2uktgK/",
+      "tags": [
+        "lateral",
+        "feint",
+        "dribblle"
+      ],
+      "notes": "5a"
+    },
+    {
+      "id": "ball-06",
+      "theme": "ball_mastery",
+      "url": "https://www.instagram.com/reel/DXKFnSgEooj/",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "ball-07",
+      "theme": "ball_mastery",
+      "url": "https://www.instagram.com/reel/DXaEGPMEp5A/",
+      "tags": [
+        "cone",
+        "dribble",
+        "skill move"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "ball-08",
+      "theme": "ball_mastery",
+      "url": "https://www.instagram.com/p/DWZMFEUEeNc/",
+      "tags": [
+        "cone",
+        "dribble",
+        "skill move"
+      ],
+      "notes": "carousel post"
+    },
+    {
+      "id": "ball-09",
+      "theme": "ball_mastery",
+      "url": "https://www.instagram.com/p/DXASMKeiUfu/",
+      "tags": [
+        "cone",
+        "dribble"
+      ],
+      "notes": "carousel post"
+    },
+    {
+      "id": "ball-10",
+      "theme": "ball_mastery",
+      "url": "https://www.instagram.com/reel/DWryj2YjI8q/",
+      "tags": [
+        "skill move"
+      ],
+      "notes": "6a"
+    },
+    {
+      "id": "ball-11",
+      "theme": "ball_mastery",
+      "url": "https://www.instagram.com/reel/DW4BmQUEuFc/",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "ball-12",
+      "theme": "ball_mastery",
+      "url": "https://www.instagram.com/reel/DWkaA5air9o/",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "ball-13",
+      "theme": "ball_mastery",
+      "url": "https://www.instagram.com/reel/DWrH8WlEmkX/",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "yoga-01",
+      "theme": "yoga_stretch",
+      "url": "https://www.instagram.com/reel/DW_zewYkeet/",
+      "tags": [],
+      "notes": ""
+    }
+  ]
+}

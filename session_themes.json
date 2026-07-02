@@ -1,0 +1,502 @@
+{
+  "meta": {
+    "sessionLengthMinutes": 50,
+    "drillSnackMinutes": 20,
+    "yogaStretchMinutes": 15,
+    "variationCycleWeeks": 4,
+    "notes": "Add Instagram reel/post URLs to each theme's instagramUrls array. The generator rotates variations weekly; pick any saved post that fits the week's focus. Friday is a rest day (yoga only). Shooting = Saturday, Running = Sunday.",
+    "instagramDrillLibrary": "instagram_drill_library.json"
+  },
+  "themes": {
+    "ball_mastery": {
+      "title": "Ball Mastery Session",
+      "durationMinutes": 50,
+      "location": "Training Field",
+      "focus": [
+        "ball manipulation",
+        "close control",
+        "trapping",
+        "touches with both feet"
+      ],
+      "structure": [
+        {
+          "block": "Activation",
+          "minutes": 8,
+          "notes": "Light touches, toe taps, ball rolls"
+        },
+        {
+          "block": "Technical block A",
+          "minutes": 14,
+          "notes": "Repeatable pattern \u2014 same skill, both feet"
+        },
+        {
+          "block": "Technical block B",
+          "minutes": 14,
+          "notes": "Add pressure or tempo \u2014 still same theme"
+        },
+        {
+          "block": "Challenge",
+          "minutes": 10,
+          "notes": "Max reps clean touches or timed circuit"
+        },
+        {
+          "block": "Cooldown",
+          "minutes": 4,
+          "notes": "Juggling or free touches"
+        }
+      ],
+      "variations": [
+        {
+          "label": "Trapping & cushioning",
+          "emphasis": "Air balls, thigh/chest/foot traps, settle into touch"
+        },
+        {
+          "label": "Tight space control",
+          "emphasis": "Cone grid, sole rolls, pull-backs, V-pulls, fast feet"
+        },
+        {
+          "label": "Direction change",
+          "emphasis": "Inside/outside cuts, Cruyff-lite, roll-and-go at speed"
+        },
+        {
+          "label": "Weak-foot volume",
+          "emphasis": "Every rep mirrored; weak foot leads each block"
+        }
+      ],
+      "instagramUrls": [
+        "https://www.instagram.com/reel/DWCIiSfgDVc/",
+        "https://www.instagram.com/reel/DWJr0chAA4l/",
+        "https://www.instagram.com/p/DW3lI89Fk3W/",
+        "https://www.instagram.com/reel/DXWub4MEiaL/",
+        "https://www.instagram.com/reel/DXZUF2uktgK/",
+        "https://www.instagram.com/reel/DXKFnSgEooj/",
+        "https://www.instagram.com/reel/DXaEGPMEp5A/",
+        "https://www.instagram.com/p/DWZMFEUEeNc/",
+        "https://www.instagram.com/p/DXASMKeiUfu/",
+        "https://www.instagram.com/reel/DWryj2YjI8q/",
+        "https://www.instagram.com/reel/DW4BmQUEuFc/",
+        "https://www.instagram.com/reel/DWkaA5air9o/",
+        "https://www.instagram.com/reel/DWrH8WlEmkX/"
+      ]
+    },
+    "pass_wall": {
+      "title": "Pass Session \u2014 Wall Drills",
+      "durationMinutes": 50,
+      "location": "Wall / Rebounder",
+      "focus": [
+        "wall passing",
+        "one-touch",
+        "two-touch rhythm",
+        "passing weight and angle"
+      ],
+      "structure": [
+        {
+          "block": "Warm-up",
+          "minutes": 8,
+          "notes": "Easy two-touch back and forth"
+        },
+        {
+          "block": "Wall block A",
+          "minutes": 15,
+          "notes": "Inside foot \u2014 rhythm and accuracy"
+        },
+        {
+          "block": "Wall block B",
+          "minutes": 15,
+          "notes": "Outside foot / weak foot / one-touch"
+        },
+        {
+          "block": "Combination",
+          "minutes": 10,
+          "notes": "Receive-turn-pass or pass-move-pass"
+        },
+        {
+          "block": "Cooldown",
+          "minutes": 2,
+          "notes": "Easy passes both feet"
+        }
+      ],
+      "variations": [
+        {
+          "label": "One-touch rhythm",
+          "emphasis": "Same wall spot; count consecutive clean one-touch returns"
+        },
+        {
+          "label": "Two-touch patterns",
+          "emphasis": "Receive across body, pass with opposite foot"
+        },
+        {
+          "label": "Weak-foot wall session",
+          "emphasis": "All passes and traps with non-dominant foot"
+        },
+        {
+          "label": "Angle changes",
+          "emphasis": "Move along wall; pass after each step; both angles"
+        }
+      ],
+      "instagramUrls": [
+        "https://www.instagram.com/reel/DXhLRm8u3X5/",
+        "https://www.instagram.com/reel/DX4XS0tSwwI/",
+        "https://www.instagram.com/reel/DXUx10gESLV/"
+      ]
+    },
+    "coordination_skills": {
+      "title": "Coordination & Skill Session",
+      "durationMinutes": 50,
+      "location": "Training Field",
+      "focus": [
+        "tricks and flair",
+        "body deception",
+        "Cruyff turn",
+        "rabona",
+        "coordination under control"
+      ],
+      "structure": [
+        {
+          "block": "Warm-up",
+          "minutes": 8,
+          "notes": "Ball familiarity, light touches"
+        },
+        {
+          "block": "Skill learn",
+          "minutes": 12,
+          "notes": "One move \u2014 slow, both feet, no pressure"
+        },
+        {
+          "block": "Skill rep",
+          "minutes": 15,
+          "notes": "Same move \u2014 reps, then add cone or marker"
+        },
+        {
+          "block": "Link moves",
+          "minutes": 10,
+          "notes": "Chain 2\u20133 skills or turn + pass"
+        },
+        {
+          "block": "Freestyle minute",
+          "minutes": 5,
+          "notes": "Experiment \u2014 no wrong answers"
+        }
+      ],
+      "variations": [
+        {
+          "label": "Cruyff & body feint",
+          "emphasis": "Cruyff turn, drop shoulder, exit pass"
+        },
+        {
+          "label": "Rabona intro",
+          "emphasis": "Static rabona touch; progress to slow roll + rabona pass"
+        },
+        {
+          "label": "Elastic / scissors family",
+          "emphasis": "Step-overs, scissors, double scissors at walking pace"
+        },
+        {
+          "label": "Turn library",
+          "emphasis": "Inside hook, outside hook, pull-back turn \u2014 same line of cones"
+        }
+      ],
+      "instagramUrls": [
+        "https://www.instagram.com/reel/DYo9-MIoOB-/",
+        "https://www.instagram.com/reel/DWZEcjgjjL9/",
+        "https://www.instagram.com/reel/DWmA_S0Esjj/",
+        "https://www.instagram.com/reel/DXjqkXLiBK8/",
+        "https://www.instagram.com/reel/DU8i0C9EQqt/",
+        "https://www.instagram.com/reel/DZcd8fhILzJ/",
+        "https://www.instagram.com/reel/DZXep4Xutoc/",
+        "https://www.instagram.com/reel/DZmSJ7GBcIh/",
+        "https://www.instagram.com/reel/DZkalIySyM2/",
+        "https://www.instagram.com/reel/DW_y2AADKTy/",
+        "https://www.instagram.com/reel/DW_nocojnt2/",
+        "https://www.instagram.com/reel/C2M30WkLAu9/",
+        "https://www.instagram.com/reel/DT43NMckjIc/",
+        "https://www.instagram.com/reel/DZP0UHkhvdz/",
+        "https://www.instagram.com/reel/DZh1s7xy018/",
+        "https://www.instagram.com/reel/DY7NwngyvFd/",
+        "https://www.instagram.com/reel/DVjBrXwgLeF/"
+      ]
+    },
+    "plyometrics": {
+      "title": "Plyometrics Session",
+      "durationMinutes": 50,
+      "location": "Training Field",
+      "focus": [
+        "explosive power",
+        "landing mechanics",
+        "agility hops",
+        "reactive strength"
+      ],
+      "structure": [
+        {
+          "block": "Movement prep",
+          "minutes": 10,
+          "notes": "Dynamic stretch, A-skips, ankle hops"
+        },
+        {
+          "block": "Power block A",
+          "minutes": 12,
+          "notes": "Broad jumps, squat jumps \u2014 quality landings"
+        },
+        {
+          "block": "Power block B",
+          "minutes": 12,
+          "notes": "Lateral bounds, single-leg hops"
+        },
+        {
+          "block": "Agility circuit",
+          "minutes": 12,
+          "notes": "Low box or cone hops + sprint trigger"
+        },
+        {
+          "block": "Cooldown",
+          "minutes": 4,
+          "notes": "Walk, breathe, light stretch"
+        }
+      ],
+      "variations": [
+        {
+          "label": "Vertical emphasis",
+          "emphasis": "Squat jumps, tuck jumps, max height land soft"
+        },
+        {
+          "label": "Lateral emphasis",
+          "emphasis": "Skater jumps, lateral bounds, stick landing"
+        },
+        {
+          "label": "Reactive",
+          "emphasis": "Quick hops over line; minimal ground contact"
+        },
+        {
+          "label": "Mixed circuit",
+          "emphasis": "Rotate 4 stations \u2014 3 rounds quality over speed"
+        }
+      ],
+      "instagramUrls": [
+        "https://www.instagram.com/reel/DP2ee3yCeNi/",
+        "https://www.instagram.com/reel/DXVPoC9gc0Y/",
+        "https://www.instagram.com/reel/DNDUVd3slXg/",
+        "https://www.instagram.com/reel/DZofVPdNYBZ/",
+        "https://www.instagram.com/reel/DXO8zBMEWPY/",
+        "https://www.instagram.com/reel/DW8_khEEcp7/",
+        "https://www.instagram.com/reel/DVtaHrQAva1/"
+      ]
+    },
+    "shooting": {
+      "title": "Shooting Session",
+      "durationMinutes": 50,
+      "location": "Training Field / Goal",
+      "focus": [
+        "striking technique",
+        "placement",
+        "off the dribble",
+        "first-time finishes"
+      ],
+      "structure": [
+        {
+          "block": "Warm-up",
+          "minutes": 8,
+          "notes": "Passing into space, light touches"
+        },
+        {
+          "block": "Technique block",
+          "minutes": 15,
+          "notes": "Static ball \u2014 placement corners"
+        },
+        {
+          "block": "Movement finishes",
+          "minutes": 15,
+          "notes": "Receive-pass-shoot or dribble-cut-shoot"
+        },
+        {
+          "block": "Pressure reps",
+          "minutes": 10,
+          "notes": "Time limit or consecutive goals"
+        },
+        {
+          "block": "Cooldown",
+          "minutes": 2,
+          "notes": "Easy passes"
+        }
+      ],
+      "variations": [
+        {
+          "label": "Placement",
+          "emphasis": "Inside foot \u2014 low corners, same technique every rep"
+        },
+        {
+          "label": "Off the dribble",
+          "emphasis": "Cut inside, laces drive, 6\u201312 yards out"
+        },
+        {
+          "label": "One-touch finishes",
+          "emphasis": "Wall or partner feed; adjust body early"
+        },
+        {
+          "label": "Weak-foot shooting",
+          "emphasis": "All finishes non-dominant; technique over power"
+        }
+      ],
+      "instagramUrls": []
+    },
+    "running": {
+      "title": "Running Session",
+      "durationMinutes": 50,
+      "location": "Track / Field / Road",
+      "focus": [
+        "aerobic base",
+        "intervals",
+        "tempo runs",
+        "recovery pace",
+        "soccer-specific conditioning"
+      ],
+      "structure": [
+        {
+          "block": "Warm-up",
+          "minutes": 10,
+          "notes": "Easy jog, dynamic stretch, A-skips"
+        },
+        {
+          "block": "Main set",
+          "minutes": 25,
+          "notes": "Intervals or steady tempo \u2014 see weekly focus"
+        },
+        {
+          "block": "Strides / accelerations",
+          "minutes": 10,
+          "notes": "4\u20136 short bursts with full walk-back recovery"
+        },
+        {
+          "block": "Cooldown",
+          "minutes": 5,
+          "notes": "Easy jog or walk, stretch calves and hips"
+        }
+      ],
+      "variations": [
+        {
+          "label": "Easy aerobic",
+          "emphasis": "30\u201340 min comfortable pace \u2014 build base, conversation effort"
+        },
+        {
+          "label": "Interval repeats",
+          "emphasis": "6\u20138 \u00d7 2 min hard / 2 min jog \u2014 quality over volume"
+        },
+        {
+          "label": "Tempo run",
+          "emphasis": "15\u201320 min comfortably hard \u2014 steady, no sprinting"
+        },
+        {
+          "label": "Fartlek",
+          "emphasis": "Mix easy jog with 30\u201360 sec pickups by feel"
+        }
+      ],
+      "instagramUrls": []
+    },
+    "yoga_stretch": {
+      "title": "Yoga / Stretch",
+      "durationMinutes": 15,
+      "location": "Home",
+      "focus": [
+        "mobility",
+        "flexibility",
+        "recovery",
+        "hip and hamstring openness",
+        "breath work"
+      ],
+      "structure": [
+        {
+          "block": "Breath & warm",
+          "minutes": 2,
+          "notes": "Easy nasal breathing, neck and shoulder rolls"
+        },
+        {
+          "block": "Lower body",
+          "minutes": 6,
+          "notes": "Hip flexor, hamstring, calf, figure-4 stretch"
+        },
+        {
+          "block": "Core & spine",
+          "minutes": 4,
+          "notes": "Cat-cow, child's pose, gentle twist"
+        },
+        {
+          "block": "Close",
+          "minutes": 3,
+          "notes": "Hold any tight area; slow breath"
+        }
+      ],
+      "variations": [
+        {
+          "label": "Post-training recovery",
+          "emphasis": "Longer holds after hard sessions"
+        },
+        {
+          "label": "Morning mobility",
+          "emphasis": "Shorter holds, more movement between poses"
+        },
+        {
+          "label": "Hip focus",
+          "emphasis": "Runners' hips \u2014 pigeon, lizard, 90/90"
+        },
+        {
+          "label": "Match prep light",
+          "emphasis": "Gentle only \u2014 no deep static stretch before hard effort"
+        }
+      ],
+      "instagramUrls": [
+        "https://www.instagram.com/reel/DW_zewYkeet/"
+      ]
+    },
+    "drill_snacks": {
+      "title": "Drill Snacks \u2014 Freestyle",
+      "durationMinutes": 50,
+      "location": "Backyard / Anywhere",
+      "focus": [
+        "freestyle exploration",
+        "saved Instagram drills",
+        "apply morning theme with variation",
+        "creativity"
+      ],
+      "structure": [
+        {
+          "block": "Review morning theme",
+          "minutes": 10,
+          "notes": "One skill from today's primary session \u2014 lighter reps"
+        },
+        {
+          "block": "Pick 1\u20132 saved posts",
+          "minutes": 10,
+          "notes": "Instagram collection or URLs in session_themes.json"
+        },
+        {
+          "block": "Try and link",
+          "minutes": 20,
+          "notes": "Combine post + morning skill; no pressure"
+        },
+        {
+          "block": "Freestyle finish",
+          "minutes": 10,
+          "notes": "Own combo or juggling cooldown"
+        }
+      ],
+      "variations": [
+        {
+          "label": "Freestyle night",
+          "emphasis": "Anything from saved posts \u2014 agility, skill, or challenge"
+        },
+        {
+          "label": "Remix",
+          "emphasis": "Revisit a move from this week's main session \u2014 lighter volume"
+        },
+        {
+          "label": "Show-and-try",
+          "emphasis": "Watch URL once, pause, copy for 20 min"
+        },
+        {
+          "label": "Juggling & touches",
+          "emphasis": "If tired \u2014 ball only, low intensity"
+        }
+      ],
+      "instagramUrls": []
+    }
+  }
+}

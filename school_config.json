@@ -1,0 +1,26 @@
+{
+  "notes": "Morning stack Mon-Thu: 07:00 yoga → 07:15 theme → 08:05–10:05 two classes → 10:05 theme B → 10:55 free (90 min) → 12:30 optional 3rd class. Friday half day: yoga + one class.",
+  "weekdaySlots": {
+    "0": [
+      { "timeStart": "08:05", "durationHours": 1, "lessonIndex": 0 },
+      { "timeStart": "09:05", "durationHours": 1, "lessonIndex": 1 },
+      { "timeStart": "12:30", "durationHours": 1, "lessonIndex": 2 }
+    ],
+    "1": [
+      { "timeStart": "08:05", "durationHours": 1, "lessonIndex": 0 },
+      { "timeStart": "09:05", "durationHours": 1, "lessonIndex": 1 },
+      { "timeStart": "12:30", "durationHours": 1, "lessonIndex": 2 }
+    ],
+    "2": [
+      { "timeStart": "08:05", "durationHours": 1, "lessonIndex": 0 },
+      { "timeStart": "09:05", "durationHours": 1, "lessonIndex": 1 },
+      { "timeStart": "12:30", "durationHours": 1, "lessonIndex": 2 }
+    ],
+    "3": [
+      { "timeStart": "08:05", "durationHours": 1, "lessonIndex": 0 },
+      { "timeStart": "09:05", "durationHours": 1, "lessonIndex": 1 },
+      { "timeStart": "12:30", "durationHours": 1, "lessonIndex": 2 }
+    ],
+    "4": [{ "timeStart": "08:05", "durationHours": 1, "lessonIndex": 0 }]
+  }
+}
