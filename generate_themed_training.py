@@ -227,6 +227,7 @@ def generate() -> list[dict]:
         sessions_by_weekday.setdefault(entry["weekday"], []).append(entry)
 
     daily_sessions = config.get("dailySessions", [])
+    meals = config.get("meals", [])
     sequence_schedule = config.get("sequenceSchedule", {})
     seq_weekdays = sequence_schedule.get("weekdays", {})
     seq_config = sequence_schedule.get("sequences", {})
@@ -237,6 +238,25 @@ def generate() -> list[dict]:
     current = start
     while current <= end:
         weekday = current.weekday()
+
+        # Add meals for every day
+        for meal in meals:
+            minutes = meal.get("durationMinutes", 30)
+            schedule.append(
+                {
+                    "activity": meal["name"],
+                    "subject": "Nutrition",
+                    "sessionTheme": "meal",
+                    "sessionSlot": "meal",
+                    "date": current.isoformat(),
+                    "timeStart": meal["timeStart"],
+                    "durationHours": round(minutes / 60, 4),
+                    "durationMinutes": minutes,
+                    "type": "Meal",
+                    "location": "Home",
+                    "details": meal.get("description", ""),
+                }
+            )
 
         for daily in daily_sessions:
             theme_key = daily["theme"]

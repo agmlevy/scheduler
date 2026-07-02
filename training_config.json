@@ -4,6 +4,44 @@
   "restDays": [4],
   "notes": "Morning stack: 07:00 yoga → sequence drills → 08:05–10:05 two classes → more drills → wall passes last. Friday rest (yoga + half-day class only). Sat shooting / Sun running after yoga.",
   "dailySessions": [{ "theme": "yoga_stretch", "timeStart": "07:30" }],
+  "meals": [
+    {
+      "name": "Breakfast",
+      "timeStart": "06:45",
+      "durationMinutes": 30,
+      "description": "Carbs + protein for energy\n\nOptions:\n• Oatmeal + eggs + fruit\n• Whole grain toast + peanut butter + banana\n• Greek yogurt + granola + berries\n• Scrambled eggs + whole wheat toast + orange juice\n\nTip: Eat 45-60 min before training"
+    },
+    {
+      "name": "Pre-Training Snack",
+      "timeStart": "07:15",
+      "durationMinutes": 10,
+      "description": "Light, easy-to-digest carbs\n\nOptions:\n• Banana\n• Granola bar\n• Apple slices\n• Small handful of crackers\n\nTip: Keep it light - training starts soon!"
+    },
+    {
+      "name": "Post-Training Recovery",
+      "timeStart": "09:30",
+      "durationMinutes": 15,
+      "description": "Protein + carbs within 30 min of training\n\nOptions:\n• Chocolate milk (great recovery drink!)\n• Greek yogurt + honey + fruit\n• Protein smoothie (banana, milk, peanut butter)\n• Turkey + cheese roll-ups + crackers\n\nTip: This meal is crucial for muscle recovery!"
+    },
+    {
+      "name": "Lunch",
+      "timeStart": "12:00",
+      "durationMinutes": 45,
+      "description": "Balanced plate: protein + carbs + veggies\n\nOptions:\n• Grilled chicken + rice + steamed broccoli\n• Turkey sandwich on whole wheat + side salad\n• Pasta with meat sauce + vegetables\n• Fish tacos + beans + salad\n\nPlate guide: 1/4 protein, 1/4 carbs, 1/2 vegetables"
+    },
+    {
+      "name": "Afternoon Snack",
+      "timeStart": "15:00",
+      "durationMinutes": 15,
+      "description": "Protein + carbs to sustain energy\n\nOptions:\n• Apple slices + peanut butter\n• Cheese + whole grain crackers\n• Trail mix (nuts + dried fruit)\n• Hummus + veggie sticks + pita\n• Greek yogurt + granola"
+    },
+    {
+      "name": "Dinner",
+      "timeStart": "18:00",
+      "durationMinutes": 45,
+      "description": "Protein + complex carbs + vegetables\n\nOptions:\n• Grilled salmon + sweet potato + asparagus\n• Lean steak + brown rice + mixed vegetables\n• Chicken stir-fry + quinoa\n• Turkey meatballs + whole wheat pasta + salad\n\nTip: Eat dinner 2-3 hours before bed for good sleep"
+    }
+  ],
   "sequenceSchedule": {
     "notes": "a=plyometrics (Mon-Thu), g=ball mastery (Tue/Thu), b/c=coordination (Mon/Wed), e=wall passes (last daily)",
     "weekdays": {
