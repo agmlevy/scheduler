@@ -3,7 +3,7 @@
   "endDate": "2026-06-26",
   "restDays": [4],
   "notes": "Morning stack: 07:00 yoga → sequence drills → 08:05–10:05 two classes → more drills → wall passes last. Friday rest (yoga + half-day class only). Sat shooting / Sun running after yoga.",
-  "dailySessions": [{ "theme": "yoga_stretch", "timeStart": "07:00" }],
+  "dailySessions": [{ "theme": "yoga_stretch", "timeStart": "07:30" }],
   "sequenceSchedule": {
     "notes": "a=plyometrics (Mon-Thu), g=ball mastery (Tue/Thu), b/c=coordination (Mon/Wed), e=wall passes (last daily)",
     "weekdays": {
@@ -13,7 +13,7 @@
       "3": ["a", "g", "e"]
     },
     "sequences": {
-      "a": { "drills": ["a1", "a2", "a3", "a4"], "timeStart": "07:15" },
+      "a": { "drills": ["a1", "a2", "a3", "a4"], "timeStart": "07:45" },
       "b": { "drills": ["b1", "b2", "b3", "b4", "b5", "b6", "b7"], "timeStart": null },
       "c": { "drills": ["c"], "timeStart": null },
       "d": { "drills": ["d"], "timeStart": null },
