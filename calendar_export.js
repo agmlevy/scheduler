@@ -1,8 +1,16 @@
 const fs = require('fs');
+const crypto = require('crypto');
 const { writeFileSync } = require('fs');
 const { createEvents } = require('ics');
 
 const TIMEZONE = 'America/New_York';
+
+function generateUID(item) {
+  // Create consistent UID based on date, time, and activity
+  const key = `${item.date}-${item.timeStart}-${item.activity}`;
+  const hash = crypto.createHash('md5').update(key).digest('hex').slice(0, 16);
+  return `${hash}@homeschool-schedule`;
+}
 
 function loadJson(path) {
   if (!fs.existsSync(path)) {
@@ -28,6 +36,7 @@ const events = schedule.map((item) => {
   const durationMinutes = Math.round((item.durationHours - durationHours) * 60);
 
   return {
+    uid: generateUID(item),
     title: item.activity,
     start: [year, month, day, hour, minute],
     startInputType: 'local',
