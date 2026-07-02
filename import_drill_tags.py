@@ -47,12 +47,16 @@ def import_csv() -> dict:
             drill_id = (row.get("id") or "").strip()
             if not drill_id:
                 continue
+            minutes_raw = (row.get("minutes") or "").strip()
+            minutes = int(minutes_raw) if minutes_raw.isdigit() else None
             drills.append(
                 {
                     "id": drill_id,
                     "theme": (row.get("theme") or "").strip(),
                     "url": (row.get("url") or "").strip(),
                     "tags": parse_tags(row.get("tags", "")),
+                    "sequence": (row.get("sequence") or "").strip(),
+                    "minutes": minutes,
                     "notes": (row.get("notes") or "").strip(),
                 }
             )

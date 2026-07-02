@@ -25,17 +25,20 @@ def export_csv() -> None:
     with CSV_PATH.open("w", newline="", encoding="utf-8-sig") as handle:
         writer = csv.DictWriter(
             handle,
-            fieldnames=["id", "theme", "url", "tags", "notes"],
+            fieldnames=["id", "theme", "url", "tags", "sequence", "minutes", "notes"],
             delimiter=delimiter,
         )
         writer.writeheader()
         for row in rows:
+            minutes = row.get("minutes")
             writer.writerow(
                 {
                     "id": row["id"],
                     "theme": row["theme"],
                     "url": row["url"],
-                    "tags": "; ".join(row.get("tags") or []),
+                    "tags": ";".join(row.get("tags") or []),
+                    "sequence": row.get("sequence", ""),
+                    "minutes": minutes if minutes is not None else "",
                     "notes": row.get("notes", ""),
                 }
             )
