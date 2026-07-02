@@ -2,6 +2,8 @@ const fs = require('fs');
 const { writeFileSync } = require('fs');
 const { createEvents } = require('ics');
 
+const TIMEZONE = 'America/New_York';
+
 function loadJson(path) {
   if (!fs.existsSync(path)) {
     return [];
@@ -30,6 +32,7 @@ const events = schedule.map((item) => {
     start: [year, month, day, hour, minute],
     startInputType: 'local',
     startOutputType: 'local',
+    calName: 'Homeschool Schedule',
     duration: { hours: durationHours, minutes: durationMinutes },
     description: item.details,
     location:
@@ -43,7 +46,37 @@ createEvents(events, (error, value) => {
     console.log(error);
     return;
   }
-  writeFileSync('./schedule.ics', value);
+  
+  // Add timezone and fix DTSTART to include TZID
+  const tzBlock = `VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE`;
+  
+  // Insert timezone after VCALENDAR header and add TZID to DTSTART
+  let ics = value.replace(
+    'X-PUBLISHED-TTL:PT1H',
+    `X-PUBLISHED-TTL:PT1H\nBEGIN:${tzBlock}`
+  );
+  
+  // Add TZID to all DTSTART lines that don't have Z (UTC)
+  ics = ics.replace(/DTSTART:(\d{8}T\d{6})$/gm, 'DTSTART;TZID=America/New_York:$1');
+  
+  writeFileSync('./schedule.ics', ics);
   console.log(
     `schedule.ics created: ${lessons.length} lessons + ${themedTraining.length} training/recovery blocks.`,
   );
