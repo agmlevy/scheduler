@@ -28,6 +28,8 @@ const events = schedule.map((item) => {
   return {
     title: item.activity,
     start: [year, month, day, hour, minute],
+    startInputType: 'local',
+    startOutputType: 'local',
     duration: { hours: durationHours, minutes: durationMinutes },
     description: item.details,
     location:
