@@ -1,6 +1,6 @@
 {
-  "startDate": "2025-10-20",
-  "endDate": "2026-06-26",
+  "startDate": "2026-06-29",
+  "endDate": "2027-06-30",
   "restDays": [4],
   "notes": "Morning stack: 07:00 yoga → sequence drills → 08:05–10:05 two classes → more drills → wall passes last. Friday rest (yoga + half-day class only). Sat shooting / Sun running after yoga.",
   "dailySessions": [{ "theme": "yoga_stretch", "timeStart": "07:30" }],
