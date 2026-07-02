@@ -227,7 +227,8 @@ def generate() -> list[dict]:
         sessions_by_weekday.setdefault(entry["weekday"], []).append(entry)
 
     daily_sessions = config.get("dailySessions", [])
-    meals = config.get("meals", [])
+    meal_times = config.get("mealTimes", {})
+    weekly_meals = config.get("weeklyMeals", {})
     sequence_schedule = config.get("sequenceSchedule", {})
     seq_weekdays = sequence_schedule.get("weekdays", {})
     seq_config = sequence_schedule.get("sequences", {})
@@ -239,22 +240,36 @@ def generate() -> list[dict]:
     while current <= end:
         weekday = current.weekday()
 
-        # Add meals for every day
-        for meal in meals:
-            minutes = meal.get("durationMinutes", 30)
+        # Add meals for every day based on weekly rotation
+        day_meals = weekly_meals.get(str(weekday), {})
+        meal_names = {
+            "breakfast": "Breakfast",
+            "preTraining": "Pre-Training Snack",
+            "postTraining": "Post-Training Recovery",
+            "lunch": "Lunch",
+            "snack": "Afternoon Snack",
+            "dinner": "Dinner",
+        }
+        for meal_key, meal_name in meal_names.items():
+            meal_time = meal_times.get(meal_key, {})
+            time_start = meal_time.get("timeStart")
+            if not time_start:
+                continue
+            minutes = meal_time.get("durationMinutes", 30)
+            description = day_meals.get(meal_key, "")
             schedule.append(
                 {
-                    "activity": meal["name"],
+                    "activity": meal_name,
                     "subject": "Nutrition",
                     "sessionTheme": "meal",
                     "sessionSlot": "meal",
                     "date": current.isoformat(),
-                    "timeStart": meal["timeStart"],
+                    "timeStart": time_start,
                     "durationHours": round(minutes / 60, 4),
                     "durationMinutes": minutes,
                     "type": "Meal",
                     "location": "Home",
-                    "details": meal.get("description", ""),
+                    "details": description,
                 }
             )
 
