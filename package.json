@@ -4,9 +4,9 @@
   "main": "calendar_export.js",
   "scripts": {
     "start": "node calendar_export.js",
-    "training:generate": "python generate_themed_training.py",
-    "lessons:generate": "python build_lesson_schedule.py",
-    "calendar": "python import_drill_tags.py && python build_lesson_schedule.py && python generate_themed_training.py && node calendar_export.js",
+    "training:generate": "python3 generate_themed_training.py",
+    "lessons:generate": "python3 build_lesson_schedule.py",
+    "calendar": "python3 import_drill_tags.py && python3 build_lesson_schedule.py && python3 generate_themed_training.py && node calendar_export.js",
     "publish": "npm run calendar"
   },
   "dependencies": {

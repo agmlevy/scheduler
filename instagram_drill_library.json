@@ -147,7 +147,7 @@
         "rotation",
         "turn"
       ],
-      "sequence": "b2",
+      "sequence": "b3",
       "minutes": 15,
       "notes": ""
     },
@@ -184,7 +184,7 @@
         "dribble",
         "foot speed"
       ],
-      "sequence": "b4",
+      "sequence": "b5",
       "minutes": 20,
       "notes": ""
     },
@@ -208,7 +208,7 @@
         "rotation",
         "turn"
       ],
-      "sequence": "b3",
+      "sequence": "b4",
       "minutes": 15,
       "notes": ""
     },
@@ -243,8 +243,8 @@
         "lateral",
         "feint"
       ],
-      "sequence": "c",
-      "minutes": null,
+      "sequence": "c1",
+      "minutes": 10,
       "notes": ""
     },
     {
@@ -255,8 +255,8 @@
         "lateral",
         "feint"
       ],
-      "sequence": "c",
-      "minutes": null,
+      "sequence": "c2",
+      "minutes": 10,
       "notes": ""
     },
     {
@@ -268,8 +268,8 @@
         "feint",
         "dribble"
       ],
-      "sequence": "c",
-      "minutes": null,
+      "sequence": "c3",
+      "minutes": 10,
       "notes": ""
     },
     {
@@ -293,7 +293,7 @@
         "dribbling",
         "foot speed"
       ],
-      "sequence": "b",
+      "sequence": "b2",
       "minutes": null,
       "notes": ""
     },
@@ -318,8 +318,8 @@
         "rotation",
         "turn"
       ],
-      "sequence": "b6",
-      "minutes": null,
+      "sequence": "b7",
+      "minutes": 10,
       "notes": ""
     },
     {
@@ -331,8 +331,8 @@
         "rotation",
         "turn"
       ],
-      "sequence": "b7",
-      "minutes": null,
+      "sequence": "b8",
+      "minutes": 10,
       "notes": ""
     },
     {
@@ -344,8 +344,8 @@
         "rotation",
         "turn"
       ],
-      "sequence": "b5",
-      "minutes": null,
+      "sequence": "b6",
+      "minutes": 10,
       "notes": ""
     },
     {
@@ -353,10 +353,11 @@
       "theme": "pass_wall",
       "url": "https://www.instagram.com/reel/DXhLRm8u3X5/",
       "tags": [
+        "wall",
         "skill move"
       ],
-      "sequence": "e",
-      "minutes": null,
+      "sequence": "e2",
+      "minutes": 10,
       "notes": ""
     },
     {
@@ -364,11 +365,12 @@
       "theme": "pass_wall",
       "url": "https://www.instagram.com/reel/DX4XS0tSwwI/",
       "tags": [
+        "wall",
         "dribble",
         "turn"
       ],
-      "sequence": "e",
-      "minutes": null,
+      "sequence": "e1",
+      "minutes": 15,
       "notes": ""
     },
     {
@@ -378,8 +380,8 @@
       "tags": [
         "skill move"
       ],
-      "sequence": "e",
-      "minutes": null,
+      "sequence": "e3",
+      "minutes": 15,
       "notes": ""
     },
     {
@@ -494,15 +496,18 @@
       "tags": [
         "skill move"
       ],
-      "sequence": "",
-      "minutes": null,
+      "sequence": "g4",
+      "minutes": 20,
       "notes": ""
     },
     {
       "id": "ball-11",
       "theme": "ball_mastery",
       "url": "https://www.instagram.com/reel/DW4BmQUEuFc/",
-      "tags": [],
+      "tags": [
+        "ball mastery",
+        "skill"
+      ],
       "sequence": "g3",
       "minutes": 20,
       "notes": ""
@@ -520,7 +525,10 @@
       "id": "ball-13",
       "theme": "ball_mastery",
       "url": "https://www.instagram.com/reel/DWrH8WlEmkX/",
-      "tags": [],
+      "tags": [
+        "ball mastery",
+        "skill"
+      ],
       "sequence": "g2",
       "minutes": 20,
       "notes": ""
