@@ -4,12 +4,12 @@ const { writeFileSync } = require('fs');
 const { createEvents } = require('ics');
 
 const TIMEZONE = 'America/New_York';
+const TEAM_NAME = 'EFU U14B 2012/13 N1';
 
 function generateUID(item) {
-  // Create consistent UID based on date, time, and activity
-  const key = `${item.date}-${item.timeStart}-${item.activity}`;
+  const key = `${item.date}-${item.timeStart}-${item.activity}-game`;
   const hash = crypto.createHash('md5').update(key).digest('hex').slice(0, 16);
-  return `${hash}@homeschool-schedule`;
+  return `${hash}@efu-games`;
 }
 
 function loadJson(path) {
@@ -19,36 +19,27 @@ function loadJson(path) {
   return JSON.parse(fs.readFileSync(path, 'utf-8'));
 }
 
-const lessons = loadJson('./lesson_schedule.json');
-const themedTraining = loadJson('./training_schedule.json');
 const games = loadJson('./games_schedule.json');
-const schedule = [...lessons, ...themedTraining, ...games].sort((a, b) => {
-  const dateCompare = a.date.localeCompare(b.date);
-  if (dateCompare !== 0) {
-    return dateCompare;
-  }
-  return a.timeStart.localeCompare(b.timeStart);
-});
 
-const events = schedule.map((item) => {
+const events = games.map((item) => {
   const [year, month, day] = item.date.split('-').map(Number);
   const [hour, minute] = item.timeStart.split(':').map(Number);
   const durationHours = Math.floor(item.durationHours);
   const durationMinutes = Math.round((item.durationHours - durationHours) * 60);
 
+  const homeAwayIndicator = item.homeAway === 'Home' ? '🏠' : '✈️';
+  const title = `${homeAwayIndicator} ${TEAM_NAME} vs ${item.opponent}`;
+  
   return {
     uid: generateUID(item),
-    title: item.activity,
+    title: title,
     start: [year, month, day, hour, minute],
     startInputType: 'local',
     startOutputType: 'local',
-    calName: 'Homeschool Schedule',
+    calName: `${TEAM_NAME} Game Schedule`,
     duration: { hours: durationHours, minutes: durationMinutes },
-    description: item.details,
-    location:
-      item.location ||
-      (item.type === 'Training' ? 'Training Field' : 
-       item.type === 'Game' ? (item.homeAway === 'Home' ? 'Home Field' : 'Away') : 'Home'),
+    description: `${item.homeAway.toUpperCase()} GAME\n\nOpponent: ${item.opponent}\nLeague: ${item.league}\n\n${item.homeTeam} vs ${item.awayTeam}`,
+    location: item.homeAway === 'Home' ? 'Home Field (TBD)' : `Away - ${item.opponent}`,
   };
 });
 
@@ -58,7 +49,6 @@ createEvents(events, (error, value) => {
     return;
   }
   
-  // Add timezone and fix DTSTART to include TZID
   const tzBlock = `VTIMEZONE
 TZID:America/New_York
 X-LIC-LOCATION:America/New_York
@@ -78,17 +68,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE`;
   
-  // Insert timezone after VCALENDAR header and add TZID to DTSTART
   let ics = value.replace(
     'X-PUBLISHED-TTL:PT1H',
     `X-PUBLISHED-TTL:PT1H\nBEGIN:${tzBlock}`
   );
   
-  // Add TZID to all DTSTART lines that don't have Z (UTC)
+  ics = ics.replace(
+    'X-WR-CALNAME:Untitled',
+    `X-WR-CALNAME:${TEAM_NAME} Games`
+  );
+  
   ics = ics.replace(/DTSTART:(\d{8}T\d{6})$/gm, 'DTSTART;TZID=America/New_York:$1');
   
-  writeFileSync('./schedule.ics', ics);
-  console.log(
-    `schedule.ics created: ${lessons.length} lessons + ${themedTraining.length} training/recovery blocks + ${games.length} games.`,
-  );
+  writeFileSync('./games_schedule.ics', ics);
+  console.log(`games_schedule.ics created: ${games.length} games for team/parent sharing.`);
 });
